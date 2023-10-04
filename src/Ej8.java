@@ -23,10 +23,6 @@ public class Ej8 {
             }
         } while (true);
 
-        if (menor == Double.MAX_VALUE) {
-            System.out.println("No se introdujeron números.");
-        } else {
-            System.out.println("El número menor de los introducidos es: " + menor);
-        }
+        System.out.println("El número menor de los introducidos es: " + menor);
     }
 }
