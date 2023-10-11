@@ -36,7 +36,7 @@ public class MiEntradaSalida {
         return Integer.parseInt(teclado.nextLine());
     }
 
-    public static int leerEnteroPositivo (String mensaje, int num) {
+    public static int leerEnteroPositivo (String mensaje) {
         System.out.printf(mensaje + ": ");
 
         int numLeido;
