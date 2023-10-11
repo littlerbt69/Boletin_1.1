@@ -35,4 +35,21 @@ public class MiEntradaSalida {
 
         return Integer.parseInt(teclado.nextLine());
     }
+
+    public static int leerEnteroPositivo (String mensaje, int num) {
+        System.out.printf(mensaje + ": ");
+
+        int numLeido;
+
+        do {
+            numLeido = Integer.parseInt(teclado.nextLine());
+
+            if (numLeido < 0) {
+                System.out.println("Por favor, Introduce un numero positivo");
+            }
+        } while (numLeido < 0);
+
+        return numLeido;
+
+    }
 }
